@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.18",
+    "tailwindcss-motion": "^1.1.1"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch",
+    "start": "npm run build"
+  }
+}
